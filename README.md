@@ -60,7 +60,7 @@ Clone the Repository
 bash
 Copy
 Edit
-git clone https://github.com/your-username/SimpleFormProject.git
+git clone https://github.com/Shubhamgiri1709/SimpleFormProject.git
 cd SimpleFormProject
 Run Tests via TestNG
 
@@ -76,7 +76,7 @@ Open target/cucumber-report.html in your browser for test results.
 gherkin
 Copy
 Edit
-Scenario: Fill out and submit the simple form
+# Scenario: Fill out and submit the simple form
   Given I open the simple form page
   When I enter "John" in the first name field
   And I enter "Doe" in the last name field
