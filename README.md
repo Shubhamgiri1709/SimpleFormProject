@@ -5,7 +5,7 @@ This project automates the form submission on the below webpage using the BDD ap
 
 🔗 Test Site: https://v1.training-support.net/selenium/simple-form
 
-📂 Project Structure
+##📂 Project Structure
 bash
 Copy
 Edit
@@ -24,7 +24,7 @@ SimpleFormProject/
 ├── pom.xml
 └── README.md
 ~~~
-🔧 Tools & Technologies Used
+##🔧 Tools & Technologies Used
 Language: Java
 
 Build Tool: Maven
@@ -37,7 +37,7 @@ Test Framework: TestNG
 
 Browser: Chrome (via ChromeDriver)
 
-✅ Features Covered
+##✅ Features Covered
 Opens the simple form web page
 
 Enters data in:
@@ -54,7 +54,7 @@ Submits the form
 
 Handles the confirmation alert
 
-🚀 How to Run the Project
+##🚀 How to Run the Project
 Clone the Repository
 
 bash
@@ -76,11 +76,12 @@ Open target/cucumber-report.html in your browser for test results.
 gherkin
 Copy
 Edit
-# Scenario: Fill out and submit the simple form
+## Scenario: Fill out and submit the simple form
   Given I open the simple form page
-  When I enter "John" in the first name field
-  And I enter "Doe" in the last name field
-  And I enter "john.doe@example.com" in the email field
-  And I enter "1234567890" in the contact number field
+  When I enter "Shubham" in the first name field
+  And I enter "Giri" in the last name field
+  And I enter "shubhamgiri1709gmail.com" in the email field
+  And I enter "7083578965" in the contact number field
   And I click the submit button
+ 
   Then I should see the form submitted successfully
